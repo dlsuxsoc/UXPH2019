@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Title }}</title>
+        {{ partial "components/meta" (dict "path" "../") }}
+    </head>
+    <body>
+        {{ partial "components/nav" (dict "path" "../") }}
+        {{ .Content }}
+        {{ partial .Params.page . }}
+    </body>
+</html>

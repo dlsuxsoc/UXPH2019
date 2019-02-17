@@ -1,0 +1,54 @@
+/* UXPH navigation stylesheet */
+
+nav{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--main-pale);
+    box-sizing: border-box;
+}
+
+nav > div.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.3em 1em;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: ease all 0.2s;
+    color: black;
+}
+
+nav #main-nav{
+    display: flex;
+    align-items: center;
+}
+
+nav #nav-logo{
+    width: 6em;
+    display: block;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+nav #main-nav ul li:hover{
+    border-bottom-color: var(--main-blue);
+    transition: ease all 0.1s;
+}
+
+nav #main-nav ul li.active{
+    border-bottom-color: var(--main-blue);
+}
