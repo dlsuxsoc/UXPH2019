@@ -108,6 +108,25 @@ section.schedule-featured div.content-wrapper p.time{
     width: 10em;
 }
 
+section.meetup-featured div.wrapper div.column-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.meetup-featured div.content-wrapper:nth-child(2){
+    padding: 0 1em;
+}
+
+section.meetup-featured div.featured-image{
+    border-radius: 5px;
+    background-color: #cccccc;
+    height: 13em;
+    background: url('../assets/images/meetup.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 section#gmaps{
     background: url('../assets/images/google_map.png');
     background-repeat: no-repeat;

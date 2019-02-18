@@ -13,6 +13,13 @@ header#index-edition{
     background-size: cover;
     padding-bottom: 13em;
 }
+header#volunteer-edition{
+	overflow: hidden;
+}
+
+header#volunteer-edition > div.wrapper{
+	position: relative;
+}
 
 header#volunteer-edition #main-info{
 	width: 30em;
@@ -20,6 +27,14 @@ header#volunteer-edition #main-info{
 
 header#volunteer-edition #main-info div.content-wrapper p{
 	font-weight: lighter;
+}
+
+header#volunteer-edition img#hero-image{
+	position: absolute;
+	right: -15em;
+	top: -10em;
+	width: 40em;
+	z-index: 1;
 }
 
 header#sponsor-edition #main-info{

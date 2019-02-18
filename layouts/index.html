@@ -43,10 +43,52 @@
                     <p>
                         <b class="red">User Experience Philippines (UXPH)</b> {{ .Site.Data.info.team }}
                     <p>
+                    <a href="/volunteer/"><button>Join Us!</button></a>
                 </div>
                 <img src="assets/images/illustration_2.svg" class="featured-image" />
             </div>
         </section>
+        <section class="featured">
+            <div class="wrapper">
+                <img src="assets/images/illustration_3.svg" class="featured-image" />
+                <div class="content-wrapper">
+                    <h2>We're looking for Sponsors & Organizers?</h2>
+                    <p>
+                        {{ .Site.Data.info.about }}
+                    <p>
+                    <a href="/sponsor/"><button>Partner With Us!</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="meetup-featured pale">
+            <div class="wrapper">
+                <h2>UXPH Meetups</h2>
+                <div class="column-content">
+                    <div class="content-wrapper">
+                        <div class="featured-image"></div>
+                        <h3 class="blue">UXPH Meetup Somewhere</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="featured-image"></div>
+                        <h3 class="blue">UXPH Meetup Somewhere</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="featured-image"></div>
+                        <h3 class="blue">UXPH Meetup Somewhere</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
         <section class="speaker-featured">
             <div class="wrapper">
                 <h2>Speakers</h2>
@@ -116,6 +158,7 @@
             </div>
         </section>
         <section id="gmaps"></section>
+        -->
         {{ partial "components/footer" (dict "path" "") }}
     </body>
 </html>

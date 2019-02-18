@@ -8,6 +8,7 @@ nav{
     top: 0;
     background-color: var(--main-pale);
     box-sizing: border-box;
+    z-index: 999 !important;
 }
 
 nav > div.wrapper{

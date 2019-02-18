@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ .Title }}</title>
+        <title>{{ .Title }} - {{ .Site.Data.info.name }}</title>
         {{ partial "components/meta" (dict "path" "../") }}
     </head>
     <body>
