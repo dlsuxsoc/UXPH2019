@@ -20,6 +20,10 @@ section.featured > div.wrapper{
     align-items: center;
 }
 
+section.featured.reversed > div.wrapper{
+    flex-direction: row-reverse;
+}
+
 section.featured img.featured-image{
     width: 25em;
     display: block;

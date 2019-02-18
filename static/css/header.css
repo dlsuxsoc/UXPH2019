@@ -14,6 +14,22 @@ header#index-edition{
     padding-bottom: 13em;
 }
 
+header#volunteer-edition #main-info{
+	width: 30em;
+}
+
+header#volunteer-edition #main-info div.content-wrapper p{
+	font-weight: lighter;
+}
+
+header#sponsor-edition #main-info{
+	width: 30em;
+}
+
+header#sponsor-edition #main-info div.content-wrapper p{
+	font-weight: lighter;
+}
+
 #main-heading{
     margin-bottom: 1em;
 }

@@ -1,0 +1,36 @@
+{
+    "a": {
+        "role": "Community Manager",
+        "description": "The community manager will be the at the core of the organization’s momentum as they will be in charge of engaging with the online and offline community, scheduling meetups, and helping useful and insightful content flow. This role is for a 6 months to 1 year commitment.",
+        "img": "assets/images/illustration_1.svg",
+        "placement":"right"
+    },
+
+    "b": {
+        "role": "Marketing Manager & Coordinators",
+        "description": "The marketing manager will be the at the core of the organization’s momentum as they will be in charge of engaging with the online and offline community through online and offline platforms. They will work closely with the Community Manager to execute community and organization initiatives. This role is for a 6 months to 1 year commitment.",
+        "img": "assets/images/illustration_1.svg",
+        "placement":"left"
+    },
+
+    "c": {
+        "role": "Visual Designers",
+        "description": "We’re looking for visual designers who want to take on creating promotional materials and collateral for our events and community initiatives. Creative work will be featured all over our websites, social media outlets, and events. These visual designers will be on a volunteer rotation or per-event basis.",
+        "img": "assets/images/illustration_1.svg",
+        "placement":"right"
+    },
+
+    "d": {
+        "role": "Community Volunteers",
+        "description": "We’re looking for motivated individuals who just want to help out during events and gatherings in terms of logistics, content gathering, and just being a part of the fun! You’ll be able to learn and meet new people during events and planning.This role is on a per-event basis.",
+        "img": "assets/images/illustration_1.svg",
+        "placement":"left"
+    },
+
+    "e": {
+        "role": "Curriculum Manager or team",
+        "description": "The Curriculum Manager (Team) is responsible for the design and growth of the members of the community. They perform tasks and activities that improve and equip the members of the community with the needed capabilities and skills. We’re looking for motivated individuals who are passionate in sharing and spreading UX as a tool for advocacy, for development and continuous improvement. This role is for a 6 months to 1 year commitment.",
+        "img": "assets/images/illustration_1.svg",
+        "placement":"right"
+    }
+}

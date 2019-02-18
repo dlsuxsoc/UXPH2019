@@ -6,7 +6,7 @@
     </head>
     <body>
         {{ partial "components/nav" (dict "path" "../") }}
-        {{ .Content }}
         {{ partial .Params.page . }}
+        {{ partial "components/footer" (dict "path" "../")  }}
     </body>
 </html>
