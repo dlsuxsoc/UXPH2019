@@ -48,6 +48,10 @@ b{
 	color: black;
 }
 
+ul li{
+	font-weight: lighter;
+}
+
 .blue{
 	color: var(--main-blue);
 }

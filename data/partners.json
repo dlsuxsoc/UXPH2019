@@ -1,15 +1,8 @@
 {
     "a": {
-        "role": "Official Venue Sponsor",
-        "description": "The community manager will be the at the core of the organization’s momentum as they will be in charge of engaging with the online and offline community, scheduling meetups, and helping useful and insightful content flow. This role is for a 6 months to 1 year commitment.",
+        "role": "Become a Venue Sponsor",
+        "description": "We hold a lot of meetups and workshops at various co-working spaces and tech offices. If you'd like to showcase your space and support our growing community, we'd love to talk. Download our Sponsorship Package to get started!",
         "img": "assets/images/illustration_1.svg",
         "placement":"right"
-    },
-
-    "b": {
-        "role": "Official Media Partner",
-        "description": "We’re looking for motivated individuals who just want to help out during events and gatherings in terms of logistics, content gathering, and just being a part of the fun! You’ll be able to learn and meet new people during events and planning.This role is on a per-event basis.",
-        "img": "assets/images/illustration_1.svg",
-        "placement":"left"
     }
 }

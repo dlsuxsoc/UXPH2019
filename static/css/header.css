@@ -32,7 +32,7 @@ header#volunteer-edition #main-info div.content-wrapper p{
 header#volunteer-edition img#hero-image{
 	position: absolute;
 	right: -15em;
-	top: -10em;
+	top: 0em;
 	width: 40em;
 	z-index: 1;
 }

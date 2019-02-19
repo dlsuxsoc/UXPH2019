@@ -31,6 +31,7 @@ nav ul li{
     cursor: pointer;
     transition: ease all 0.2s;
     color: black;
+    font-weight: normal;
 }
 
 nav #main-nav{
@@ -52,4 +53,32 @@ nav #main-nav ul li:hover{
 
 nav #main-nav ul li.active{
     border-bottom-color: var(--main-blue);
+}
+
+ul#team-sidebar{
+	color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    margin-right: 5em;
+    width: 50em;
+}
+
+ul#team-sidebar li{
+    list-style-type: none;
+    font-size: 1em;
+    padding: 1.8em 0;
+    padding-top: 0;
+    border-bottom: thin solid transparent;
+    cursor: pointer;
+    transition: ease all 0.1s;
+    font-weight: lighter;
+}
+
+ul#team-sidebar li:hover{
+    color: var(--main-blue);
+}
+
+ul#team-sidebar li.active{
+    color: var(--main-blue);
+    font-weight: bold;
 }
