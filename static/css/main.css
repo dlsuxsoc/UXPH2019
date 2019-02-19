@@ -6,6 +6,7 @@
 @import url(header.css);
 @import url(section.css);
 @import url(footer.css);
+@import url(mediaquery.css);
 
 :root{
 	--main-blue: #15B0DE;

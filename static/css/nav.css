@@ -1,5 +1,17 @@
 /* UXPH navigation stylesheet */
 
+nav#mobile-nav{
+    display: none;
+}
+
+nav #hamburger{
+    display: none;
+}
+
+nav.hide{
+    transform: translateX(-110%) !important;
+}
+
 nav{
     margin: 0;
     padding: 0;
