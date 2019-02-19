@@ -110,17 +110,18 @@ section.schedule-featured div.content-wrapper p.time{
 
 section.meetup-featured div.column-content{
     display: flex;
-    overflow-x: scroll;
-    padding: 0 5%;
+    margin-bottom: 1em;
+}
+
+section.meetup-featured div.featured-image:nth-child(2){
+    margin: 0 1em;
 }
 
 section.meetup-featured div.featured-image{
     border-radius: 5px;
     background-color: #cccccc;
-    height: 15em;
-    flex: 1 0 20em;
-    cursor: pointer;
-    margin-right: 1em;
+    height: 13em;
+    width: 100%;
     background: url('../assets/images/meetup.jpg');
     background-repeat: no-repeat;
     background-position: center;
