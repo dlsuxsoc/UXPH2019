@@ -7,10 +7,10 @@ header{
 }
 
 header#index-edition{
-    background: url('../assets/images/hero_home_taller.png') no-repeat;
-    background-position: top;
+    background: url('../assets/images/uxph_hero_home.png') no-repeat;
+    background-position: 25em 8em;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 70em;
     padding-bottom: 13em;
 }
 
